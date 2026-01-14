@@ -47,6 +47,10 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  height: 2000px;
+}
+
 /* commons style typrography */
 
 .container {
@@ -57,6 +61,10 @@ html {
 
 nav {
   background-image: url(/images/banner-image.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 1084px;
 }
 
 .nav-content {
@@ -78,4 +86,55 @@ nav {
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
+}
+
+.banner-content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.banner-content h1 {
+  color: var(--white);
+  font-size: 80px;
+  font-weight: 400;
+  line-height: 130%;
+}
+
+.banner-content p {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 160%;
+  color: var(--gray-2);
+  width: 606px;
+  font-family: "Gilroy-Regular", sans-serif;
+}
+
+.banner-content .banner-search {
+  background-color: rgba(255, 255, 255, 0.172);
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 8px 20px;
+  border-radius: 30px;
+  border: 2px solid rgba(255, 255, 255, 0.447);
+}
+
+.banner-search input[type="text"] {
+  background-color: transparent;
+  border: none;
+  width: 250px;
+  color: var(--white);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 160%;
+  font-family: "Gilroy-Regular", sans-serif;
+}
+
+.banner-search input[type="text"]:focus {
+  outline: none;
 }
