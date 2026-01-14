@@ -1,0 +1,68 @@
+@media screen and (max-width: 1200px) {
+}
+@media screen and (max-width: 1024px) {
+  .banner-content h1 {
+    font-size: 70px;
+  }
+  .banner-content .banner-search {
+    padding: 6px 18px;
+  }
+  .choosing-content .choosing-text h1 {
+    margin-right: 20px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .nav-menu,
+  .nav-bag {
+    display: none;
+  }
+  .nav-content .n-menu {
+    display: block;
+  }
+
+  .banner-content h1 {
+    font-size: 50px;
+  }
+  .banner-content p {
+    font-size: 20px;
+  }
+  .banner-search input[type="text"] {
+    width: 170px;
+  }
+
+  .banner-content .banner-search {
+    padding: 4px 16px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .container {
+    width: 95%;
+    margin: 0 auto;
+  }
+  .choosing-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .choosing-content .choosing-text h1 {
+    width: 100%;
+    margin-right: 0px;
+  }
+  .choosing-content {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  #choosing {
+    padding: 80px 10px;
+  }
+}
+@media screen and (max-width: 576px) {
+  nav {
+    height: 904px;
+  }
+  .banner-content h1 {
+    font-size: 40px;
+  }
+  .banner-content p {
+    font-size: 16px;
+  }
+}
